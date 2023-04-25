@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Roboto:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcede0;
+    height: 100vh;
+}
+
+.container {
+    padding: 0 50px;
+    margin-top: 16px;
+}
+
+.row { 
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+}
+
+li {
+    list-style-type: none;
+}
+
+.text--brown {
+    color: #844626
+}
+
+/* nav */
+
+.personal__logo {
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 24px;
+    transition: all 450ms ease;
+    box-shadow: 0 12px 24px 0 rgb(0, 0, 0, 0.45);
+}
+
+.personal__logo:hover {
+    transform: scale(1.1);
+}
+
+/* header */
+
+.header__desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.section__title {
+    padding: 12px 0;
+    font-size: 36px;
+    color: #242424;
+    font-family: "Cardo", serif;
+    font-weight: bold;
+}
+
+.header__about {
+    line-height: 1.5;
+    padding: 12px 0;
+    font-size: 14px;
+    color: #242424;
+    max-width: 550px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* links */
+.links__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.li__description {
+    margin-top: 16px;
+    border: 2px solid #844626;
+    padding: 12px;
+    border-radius: 28px;
+    text-align: center;
+    transition: all 450ms ease;
+    font-family: "Roboto", sans-serif;
+}
+
+.li__description:hover {
+    transform: scale(1.1);
+    border-color: white;
+    background-color: #844626;
+}
+
+a:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.whatsapp__btn {
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+    border-radius: 50%;
+    border: none;
+    background-color: #844626;
+    color: white;
+    position: fixed;
+    bottom: 32px;
+    right: 40px;
+    z-index: 100;
+    box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.28);
+    transition: all 650ms ease;
+}
+
+  .whatsapp__btn:hover {
+    transform: scale(1.2);
+  }
+
+  .instagram__btn {
+        width: 70px;
+        height: 70px;
+        font-size: 32px;
+        border-radius: 50%;
+        border: none;
+        background-color: #844626;
+        color: white;
+        position: fixed;
+        bottom: 32px;
+        right: 140px;
+        z-index: 100;
+        box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.28);
+        transition: all 650ms ease;
+    }
+
+    .instagram__btn:hover{
+        transform: scale(1.2);
+    }
+  
+  .mail__btn {
+        width: 70px;
+        height: 70px;
+        font-size: 32px;
+        border-radius: 50%;
+        border: none;
+        background-color: #844626;
+        color: white;
+        position: fixed;
+        bottom: 32px;
+        right: 240px;
+        z-index: 100;
+        box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.28);
+        transition: all 650ms ease;
+    }
+
+    .mail__btn:hover{
+        transform: scale(1.2);
+    }
+  
+  .links__description img {
+    width: 100px;
+  }
+
+  /* shapes */
+  .shape {
+    position: fixed;
+    z-index: -1;
+  }
+  .shape--0 {
+    top: 15vh;
+    left: 5vw;
+  }
+  .shape--1 {
+    top: 15vh;
+    left: 50vw;
+  }
+  .shape--2 {
+    top: 15vh;
+    left: 80vw;
+  }
+  .shape--3 {
+    top: 50vh;
+    left: 5vw;
+  }
+  .shape--4 {
+    top: 50vh;
+    left: 50vw;
+  }
+  .shape--5 {
+    top: 50vh;
+    left: 80vw;
+  }
+  .shape--6 {
+    top: 80vh;
+    left: 5vw;
+  }
+  .shape--7 {
+    top: 80vh;
+    left: 50vw;
+  }
+  .shape--8 {
+    top: 80vh;
+    left: 80vw;
+  }
+
+  /* footer */
+
+  .footer__desc {
+    font-size: 12px;
+    text-align: center;
+    padding: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #242424;
+    
+  }
+
+  @media (max-width: 768px) {
+    .whatsapp__btn {
+      right: 12px;
+    }
+
+    .instagram__btn {
+      right: 12px;
+      bottom: 120px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .section__title {
+      font-size: 28px;    
+    }
+
+    .header__about {
+      font-size: 12px;
+    }
+
+    .li__description {
+      font-size: 12px;
+    }
+
+    .whatsapp__btn {
+      width: 60px;
+      height: 60px;
+    }
+
+    .instagram__btn {
+      width: 60px;
+      height: 60px;
+    }
+
+    .links__description img {
+      width: 80px;
+    }
+  }
