@@ -233,6 +233,10 @@ a:hover {
       right: 12px;
       bottom: 120px;
     }
+    .mail__btn {
+      right: 12px;
+      bottom: 220px;
+    }
   }
 
   @media (max-width: 480px) {
@@ -254,6 +258,10 @@ a:hover {
     }
 
     .instagram__btn {
+      width: 60px;
+      height: 60px;
+    }
+    .mail__btn {
       width: 60px;
       height: 60px;
     }
