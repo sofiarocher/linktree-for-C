@@ -255,16 +255,39 @@ a:hover {
     .whatsapp__btn {
       width: 40px;
       height: 40px;
+      font-size: 24px;
     }
 
     .instagram__btn {
       width: 40px;
       height: 40px;
+      font-size: 24px;
     }
     .mail__btn {
       width: 40px;
       height: 40px;
+      font-size: 24px;
     }
+
+    .shape, .shape--0, .shape--1, .shape--2,
+    .shape--3, .shape--4, .shape--5, .shape--6,
+    .shape--7, .shape--8 {
+      animation: spin 1s infinite linear;
+      opacity: 0.5;
+      
+    }
+
+    
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+  
 
     .links__description img {
       width: 80px;
