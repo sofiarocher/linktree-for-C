@@ -240,8 +240,12 @@ a:hover {
   }
 
   @media (max-width: 480px) {
+
+    .container {
+      padding-top: 80px;
+    }
     .section__title {
-      font-size: 28px;    
+      font-size: 24px;    
     }
 
     .header__about {
@@ -255,18 +259,18 @@ a:hover {
     .whatsapp__btn {
       width: 40px;
       height: 40px;
-      font-size: 24px;
+      font-size: 20px;
     }
 
     .instagram__btn {
       width: 40px;
       height: 40px;
-      font-size: 24px;
+      font-size: 20px;
     }
     .mail__btn {
       width: 40px;
       height: 40px;
-      font-size: 24px;
+      font-size: 18px;
     }
 
     .shape, .shape--0, .shape--1, .shape--2,
@@ -287,7 +291,9 @@ a:hover {
       }
     }
 
-  
+    .footer__desc {
+      padding-top: 100px;
+    }
 
     .links__description img {
       width: 80px;
