@@ -73,9 +73,9 @@ li {
     font-size: 14px;
     color: #242424;
     max-width: 550px;
-    text-align: center;
+    text-align: start;
     font-family: "Roboto", sans-serif;
-
+    background-color: #fcede0c8;
 }
 
 /* links */
@@ -242,7 +242,7 @@ a:hover {
   @media (max-width: 480px) {
 
     .container {
-      padding-top: 80px;
+      padding-top: 40px;
     }
     .section__title {
       font-size: 24px;    
@@ -250,6 +250,7 @@ a:hover {
 
     .header__about {
       font-size: 12px;
+      text-align: center;
     }
 
     .li__description {
